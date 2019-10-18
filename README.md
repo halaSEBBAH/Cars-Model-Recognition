@@ -33,6 +33,5 @@ Give examples
 Our professor : M. RACHID OULAD HAJ THAMI
 
 ## Authors
-
-SEBBAH Hala
-FETTAH Taha
+* **SEBBAH Hala** 
+* **FETTAH Taha** 
