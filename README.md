@@ -8,6 +8,9 @@ pyhton -
 OpenCv - 
 keras 
 
+### OverView : 
+each image is compared to logo images (using SIFT ) , in case of match , we classify the image using a resnet50 model , in case of negative result , we classify using the global classifier , also having fresnet50 architecture .
+
 ### Step 1 : Data collectionning and cleansing
 
 all data we used is in here
@@ -18,17 +21,15 @@ all data we used is in here
 SIFT(Scale-invariant feature transform) consists on calculating a dexcriptory vector (using derivation of LoG)for images in images database and recalculating the descriptory vector for request images and finding similar images using distance between vectors
 
 for details we refer [this article](https://towardsdatascience.com/sift-scale-invariant-feature-transform-c7233dc60f37)
+
+for the implementation we used predefined functions in OpenCv library
 ```
-# predefined SIFT function in OpenCV library 
 sift = cv2.xfeatures2d.SIFT_create()
-
 ```
-
-
 
 
 ### Step 3 : image recognition using deep learning and computer vision
-we used convolutionnal neural networks to make the classifiers , as deep neural networks are actually very popular and aknowledged to be performant in classification tasks . 
+we used convolutionnal neural networks to make the classifiers , as deep neural networks are aknowledged to be performant in classification tasks .
 
 <img src="Images/CNN.PNG">
 
