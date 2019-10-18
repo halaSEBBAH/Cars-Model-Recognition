@@ -1,9 +1,0 @@
-weights du modèle de backup
-http://www.mediafire.com/file/m8fdpnxm9av1z94/modelBackup.h5/file
-
-
-weigts du modèle Dacia
-http://www.mediafire.com/file/08s8e70mo5lg7uk/daciaModel.h5/file
-
-weights du modèle Ford
-http://www.mediafire.com/file/m9lvuu4mszn62mz/modelFord.h5/file
