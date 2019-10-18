@@ -13,16 +13,23 @@ keras
 all data we used is in here
 
 
-### Step 2 : Logo recognition using 
+### Step 2 : Logo recognition using SIFT algorithm 
 
 ```
-Give examples
+# predefined SIFT function in OpenCV library 
+sift = cv2.xfeatures2d.SIFT_create()
+
 ```
 
 
-### Step 1 : image recognition using deep learning and computer vision
 
-all data we used is in here
+
+### Step 3 : image recognition using deep learning and computer vision
+we used convolutionnal neural networks to make the classifiers , as deep neural networks are actually very popular and aknowledged to be performant in classification tasks . 
+As the tendacy goes for making layers deeper and deeper , we used  **ResNet50** initialy with empt weights and trained it on the data we gathered 
+
+#### Why ResNet50
+
 
 ```
 Give examples
