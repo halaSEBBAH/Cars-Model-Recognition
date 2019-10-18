@@ -1,8 +1,3 @@
-
-
-
-
-
 import cv2
 import numpy
 import pickle
@@ -101,16 +96,7 @@ with open('C:/Users/Dell/Desktop/Liste de descripteurs dacia/fileDes' , 'rb') as
                     cpt2+=1
                 test+=1
                 break
-                            
-                """print("yeaaaaaaaaah dacia")
-                matching_result = cv2.drawMatches(img1, kp1, img2, kp2, matches[:cpt], None)
-                matching_result =cv2.resize(matching_result ,(100,100))
-                cv2.imshow("Matching result" , matching_result)
-                cv2.waitKey(0)
-                cv2.destroyAllWindows()
-                test +=1
-                break
-                """
+                           
 
 if (test==0):
     with open('C:/Users/Dell/Desktop/Liste de descripteurs ford/fileDes', 'rb') as file1:
