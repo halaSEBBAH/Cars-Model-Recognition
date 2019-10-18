@@ -4,10 +4,7 @@ a system to classify and recognise cars models using deep learning and computer 
 
 ### Prerequisites
 
-pyhton 
-OpenCv
+pyhton - 
+OpenCv - 
 keras 
 
-```
-Give examples
-```
