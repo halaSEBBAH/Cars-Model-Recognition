@@ -28,7 +28,7 @@ sift = cv2.xfeatures2d.SIFT_create()
 we used convolutionnal neural networks to make the classifiers , as deep neural networks are actually very popular and aknowledged to be performant in classification tasks . 
 
 <img src="C:\Users\hala\Documents\Ma formation\CNN.png"/>
-
+!["C:\Users\hala\Documents\Ma formation\CNN.png"]
 As the tendacy goes for making layers deeper and deeper , we used  **ResNet50** initialy with empt weights and trained it on the data we gathered 
 
 #### Why ResNet50
