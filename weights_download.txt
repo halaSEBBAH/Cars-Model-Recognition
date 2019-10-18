@@ -7,3 +7,6 @@ http://www.mediafire.com/file/08s8e70mo5lg7uk/daciaModel.h5/file
 
 weights of Ford model
 http://www.mediafire.com/file/m9lvuu4mszn62mz/modelFord.h5/file
+
+all data we used 
+https://www.mediafire.com/file/vpcwdb8ps9bn39v/Data.zip/file
