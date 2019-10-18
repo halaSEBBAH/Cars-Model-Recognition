@@ -15,6 +15,8 @@ all data we used is in here
 
 ### Step 2 : Logo recognition using SIFT algorithm 
 
+SIFT(Scale-invariant feature transform) consists on calculating a dexcriptory vector (using derivation of LoG)for images in images database and recalculating the descriptory vector for request images and finding similar images using distance between vectors
+for details we refer [this article](https://towardsdatascience.com/sift-scale-invariant-feature-transform-c7233dc60f37)
 ```
 # predefined SIFT function in OpenCV library 
 sift = cv2.xfeatures2d.SIFT_create()
@@ -55,6 +57,7 @@ model.fit(featuresTrain, labelsTrain, epochs = 100, batch_size = 64)
 
 ```
 #### why ResNet50
+for details we refer [this article](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
 
 
 ## Acknowledgments
