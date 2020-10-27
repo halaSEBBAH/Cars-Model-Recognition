@@ -9,7 +9,7 @@ OpenCv -
 keras 
 
 ### OverView : 
-each image is compared to logo images (using SIFT ) , in case of match , we classify the image using a resnet50 model , in case of negative result , we classify using the global classifier , also having fresnet50 architecture .
+each image is compared to logo images (using SIFT ) , in case of match , we classify the image using a resnet50 model , in case of negative result , we classify using the global classifier , also having resnet50 architecture .
 
 ### Step 1 : Data collectionning and cleansing
 
